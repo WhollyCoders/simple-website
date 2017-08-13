@@ -1,0 +1,23 @@
+body{font-family: 'century gothic', helvetica, arial, sans-serif;
+background-color: #000; font-size: 20px;}
+ul li{list-style: none; display: inline;}
+a{text-decoration: none; color: #fff;}
+
+.container{display: block; width: 960px; margin: 30px auto; background-color: #fff;}
+  /*header{background-color: #000;}*/
+  .brand, .navigation{width: 50%; float: left; height: 75px; background-color: #000;}
+    .brand-wrapper{color: #fff;}
+    .brand-wrapper h1, .brand-wrapper p{margin: 0px;}
+    .brand-wrapper p{color: #548fda;}
+    .navigation{text-align: right;}
+      .navigation a{padding: 15px;}
+      .active, .navigation a:hover{color: #548fda;}
+#mlp-banner img{width: 100%; height: auto;}
+
+#mlp-content{background-color: #222; color: #fff;}
+.content-wrapper{padding: 30px 40px; text-align: center;}
+.content-wrapper img{border-radius: 50%;}
+.content-wrapper h1{font-size: 36px; color: #548fda;}
+
+footer{background-color: #000; text-align: center;}
+  footer p{color: #333; margin: 0px; padding: 15px 0px;}
